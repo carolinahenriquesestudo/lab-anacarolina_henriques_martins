@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Área de Contato - Suporte Tech</title>
+</head>
+<body>
+    <header>
+        <h1>Área de Contato do Cliente</h1>
+        <nav>
+            <a href="#">Ajuda</a>
+            <a href="#">Sair</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Envie sua mensagem para a nossa equipe de suporte backend</h2>
+
+        <form action="/enviar" method="post">
+            <div>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <br>
+
+            <div>
+                <label for="celular">Telefone Celular:</label><br>
+                <input type="tel" id="celular" name="celular">
+            </div>
+
+            <br>
+
+            <div>
+                <label for="msg">Mensagem:</label><br>
+                <textarea id="msg" name="msg" required></textarea>
+            </div>
+
+            <br>
+
+            <button type="submit">Enviar Mensagem</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; Suporte Tech 2026</p>
+    </footer>
+</body>
+</html>
